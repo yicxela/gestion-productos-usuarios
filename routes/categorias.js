@@ -3,6 +3,7 @@ const { check } = require('express-validator');
 
 const { validarJWT, validarCampos, esAdminRole } = require('../middlewares');
 
+
 const { crearCategoria,
         obtenerCategorias,
         obtenerCategoria,
